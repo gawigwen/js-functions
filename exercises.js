@@ -27,6 +27,11 @@ console.log(testGreeting); // printing the output value of the function.
  * These two variables will be used to invoke the functions #2 - #5.
 */ 
 
+var bango1 = 1
+var bango2 = 2
+console.log(bango1)
+console.log(bango2)
+
 
 
 /*
@@ -44,6 +49,11 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `sum` to test your code.
 */
 
+function add(num1,num2){
+	return num1 , num2
+}
+	
+
 
 
 /*
@@ -59,6 +69,13 @@ console.log(testGreeting); // printing the output value of the function.
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
+
+function subtract(num1,num2){
+var num1 = 10
+var num2 = 5
+	return num1 - num2;
+}
+console.log(subtract)
 
 
 
@@ -76,7 +93,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `product` to test your code.
 */
 
-
+function multiply(num1,num2){
+var num1 = 2
+var num2 = 5
+	return num1 * num2;
+}
+console.log(multiply)
 
 /*
  * #5
@@ -92,6 +114,12 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log `quotient` to test your code.
 */
 
+function divide(num1,num2){
+var num1 = 500
+var num2 = 100
+	return num1 / num2;
+}
+console.log(divide)
 
 
 /*
@@ -106,6 +134,11 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your result.
 */
 
+function checkSum(num1,num2){
+	var checkSum = 5
+		return sum
+}
+console.log(checkSum)
 
 
 /*
@@ -120,7 +153,10 @@ console.log(testGreeting); // printing the output value of the function.
  * Console.log your results.
 */ 
 
-
+function checkDifference(num1,num2){
+	var checkDifference = 7
+		return difference
+console.log(checkdifference)
 
 /*
  * #8
@@ -271,9 +307,3 @@ console.log(testGreeting); // printing the output value of the function.
  * Function - throwParty
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
-
-
-
-
-
-
