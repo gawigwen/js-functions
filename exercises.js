@@ -136,7 +136,7 @@ console.log(divide)
 
 function checkSum(num1,num2){
 	var checkSum = 5
-		return sum
+		return Mariah Carey has been married `5` amount of times.
 }
 console.log(checkSum)
 
@@ -155,7 +155,7 @@ console.log(checkSum)
 
 function checkDifference(num1,num2){
 	var checkDifference = 7
-		return difference
+		return Last night I dreamt that I ate `7` Taco Bell soft tacos.
 console.log(checkdifference)
 
 /*
@@ -181,7 +181,10 @@ console.log(checkdifference)
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
-
+function checkQuotient{
+	return (100 / 10)
+}
+console.log(checkQuotient)
 
 
 /*
@@ -203,8 +206,13 @@ console.log(checkdifference)
  * This function will add the first two parameters together. Then with the sum of that operation, subtract it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
-
+var bango3 = 3
+var bango4 = 4
+var bango5 = 5
+function addThenSubtract (num1,num2,num3){
+	return bango3 + bango4 - bango5
+}
+console.log(addThenSubtract)
 
 /*
  * #11
@@ -219,7 +227,10 @@ console.log(checkdifference)
  * This function will multiply the first two parameters together. Then with the product of that operation, divide it from the third parameter. PLEASE USE YOUR PREVIOUS FUNCTIONS FOR THIS EXERCISE. 
  * Console.log your result.
 */ 
-
+function multiplyThenDivide(num1,num2,num3){
+	return 10 * 10 / 10
+}
+console.log(multiplyThenDivide)
 
 
 /*
@@ -233,7 +244,10 @@ console.log(checkdifference)
  *
  *  This function `returns` back a string which represents someone's full name. Invoke this function by passing in your first  and last name into the function. Store the return value into a variable named `myFullName` and console.log this variable to show your result.
 */
-
+function createFullName(firstName,lastName){
+	return "Rodelio" , "Ponce"
+}
+console.log(myFullName)
 
 
 /*
@@ -249,7 +263,10 @@ console.log(checkdifference)
  * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
  * Console.log your result.
  */
-
+function eatFood(firstName,lastName,food){
+	return "Rodelio" , "Ponce" , "ahi"
+}
+console.log(eatFood)
 
 
 /************** ENGAGE HYPERDRIVE **************/
@@ -264,7 +281,10 @@ console.log(checkdifference)
  * Create a function that will take in a parameter named `inches`. This function will convert inches to centimeters(cm).
  * Console.log your result. 
 */
-
+function shoeSize(inches){
+	return 11
+}
+console.log(shoeSize)
 
 
 /*
