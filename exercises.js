@@ -324,10 +324,16 @@ console.log(oneCap(One))
  * Call this function and pass in a number value.
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
+ var verifyDrinkingAge = 18;
 function verifyDrinkingAge(age){
-	return Boolean	
+	if (verifyDrinkingAge){
+		verifyDrinkingAge = Yes
+	}else{
+		verifyDrinkingAge = No
+	}
 }
-Boolean(true)
+verifyDrinkingAge();
+console.log(verifyDrinkingAge);
 
 
 /**
@@ -335,6 +341,13 @@ Boolean(true)
  * Function - throwParty
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
+ var canDrink = true;
 function throwParty(canDrink){
-	return "Cheee Hoo! We going to da party!"
+	if (canDrink ){
+		canDrink = "Cheee Hoo! We going to da party!"
+	}else{
+		canDrink = "Meh, see you at Starbucks."
+	}
 }
+throwParty();
+console.log(throwParty);
