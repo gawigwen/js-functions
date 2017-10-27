@@ -281,9 +281,10 @@ console.log(eatFood("Rodelio" , "Ponce" ,"ahi" ));
  * Console.log your result. 
 */
 function shoeSize(inches){
-	return 11
+	return inches*2.45
 }
-console.log(shoeSize)
+var inches = 11
+console.log(shoeSize(11))
 
 
 /*
@@ -299,7 +300,7 @@ console.log(shoeSize)
  	return str.toUppercase()
 
  }
-allcaps("sadsadsadsaddsadsadsdas")
+allcaps("im yelling")
 
 /*
  * #16
@@ -308,8 +309,10 @@ allcaps("sadsadsadsaddsadsadsdas")
  * This function will capitalize only the first letter in the variable phase above. 
  * Console.log your result.
 */
-
-
+function oneCap(str){
+	return str.{0}.toUppercase();
+}
+console.log(oneCap(One))
 
 /*
  * #17
@@ -321,7 +324,10 @@ allcaps("sadsadsadsaddsadsadsdas")
  * Call this function and pass in a number value.
  * Store the return value to a variable named `canDrink`. Console.log your result.
  */
-
+function verifyDrinkingAge(age){
+	return Boolean	
+}
+Boolean(true)
 
 
 /**
@@ -329,3 +335,6 @@ allcaps("sadsadsadsaddsadsadsdas")
  * Function - throwParty
  * Create a function named throwParty. This function will check the value stored in the `canDrink` variable in the previous exercise. If the value is true, it will return the message "Cheee Hoo! We going to da party!" If false, then it will return the message "Meh, see you at Starbucks." Store the return value to a variable named `canParty`. Console.log your result.
  */
+function throwParty(canDrink){
+	return "Cheee Hoo! We going to da party!"
+}
